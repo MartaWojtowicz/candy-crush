@@ -1,0 +1,104 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color:rgb(218, 225, 228);
+}
+
+section {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(218, 225, 228);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+    margin-top: 100px;
+  }
+
+  .game {
+    height: 800px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+  }
+
+  .styled-break {
+    width: 100px;
+    height: 3.3px;
+    background-color: rgb(184, 179, 173);
+    border-radius: 1.5px;
+    margin: 30px 30px 30px 30px;
+  }
+
+  .time{
+    width: 25%;
+  }
+
+  .time-board {
+    height: 80px;
+    width: 150px;
+    background-color: rgb(233, 241, 245);;
+    border-radius: 20px;
+    border: 4px solid rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: inset 8px 8px 4px rgb(253, 251, 251, 0.5),
+    inset -8px -8px 4px rgb(253, 251, 251, 0.5);
+    margin: 0 100px 0 450px;
+  }
+
+  #time{
+    font-size: 40 px;
+    color: rgb(151, 41, 92);
+    text-shadow: 0 0 4px #8d8d8d;
+  }
+
+  .score-board {
+    height: 80px;
+    width: 150px;
+    background-color: rgb(233, 241, 245);;
+    border-radius: 20px;
+    border: 4px solid rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 8px 8px 4px rgb(253, 251, 251, 0.5),
+    inset -8px -8px 4px rgb(253, 251, 251, 0.5);
+  }
+
+  h3 {
+    margin: 0 0 0 0 ;
+  }
+
+  #score{
+    margin: 10px 0 0 0;
+    font-size: 40 px;
+    color: rgb(151, 41, 92);
+    text-shadow: 0 0 4px #8d8d8d;
+  }
+
+ 
+
+.grid {
+    height: 560px;
+    width: 560px;
+    display: flex;
+    flex-wrap:wrap;
+    border: 4px solid rgb(184, 179, 173);
+    border-radius: 5px;
+    padding: 4px;
+    background-color: white;
+}
+
+.grid div {
+    height: 70px;
+    width: 70px;
+}
+
+
+.empty {
+  height: 100px;
+  width: 25%;
+}
