@@ -384,7 +384,7 @@ function updateCountDown() {
     if (time < 0) {
         clearInterval(timer);
         clearInterval(makeMove);
-        timeDisplay.innerHTML = "TIME OUT!"
+        timeDisplay.innerHTML = "TIME'S UP!"
     }
 }
 
